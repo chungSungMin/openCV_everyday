@@ -4,6 +4,7 @@ import numpy as np
 img1 = cv2.resize(cv2.imread("imgs/강아지.jpeg"), (128, 128))
 img2 = cv2.resize(cv2.imread("imgs/고양이.jpg"), (128, 128))
 
+
 alpha = 0.5 
 
 blended = img1 * alpha + img2 * (1-alpha)
